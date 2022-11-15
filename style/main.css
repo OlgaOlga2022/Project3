@@ -40,6 +40,7 @@ button{
     font-weight: 700px;
     width: 219px;
     height: 69px;
+    border: none;
 }
 
 button:hover{
@@ -54,13 +55,13 @@ section{
 }
 
 .main_image{
-    height: 465px;
-    background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
-    border-radius: 70px;
     width: 465px;
     height: 465px;
     background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
     border-radius: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 image{
@@ -69,4 +70,5 @@ image{
     left: 105px;
     top: 105px;
     margin: 105px 105px;
+    align-items: center;
 }
